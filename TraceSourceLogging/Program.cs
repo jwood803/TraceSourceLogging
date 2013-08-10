@@ -8,7 +8,7 @@
 
         static void Main(string[] args)
         {
-            traceSource.TraceData(TraceEventType.Verbose, 1, "Now we're logging!");
+            traceSource.TraceInformation("Now we're logging!");
             traceSource.Flush();
             traceSource.Close();
         }
